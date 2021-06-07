@@ -1,0 +1,32 @@
+// main-music-part
+.main-music-part{
+    margin: 0px auto;
+}
+.main-music{
+    margin: 100px auto;
+}
+.main-music-title {
+    color: #ad7d01;
+}
+.main-music-part {
+    margin-bottom: 100px!important;
+    .card {
+        margin: 20px auto;
+        background-color: #ad7d01;
+        overflow: hidden;
+
+        &:hover{
+            transform: scale(1.1);
+            box-shadow:inset 1px -3px 20px 0px rgb(49, 42, 3);
+        }
+    }
+
+    div.card-body {
+        p {
+            color: black;
+            font-size: 17px;
+            white-space: nowrap;
+            text-align: center;
+        }
+    }
+}
